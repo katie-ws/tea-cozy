@@ -14,16 +14,28 @@ nav {
     height: 69px;
     border-bottom: 1px solid seashell;
     position: fixed;
+    overflow: hidden;
 }
 
-.logo {
+nav img {
     margin-left: 10px;
     height: 50px;
     width: auto;
-    text-align: left;
 }
 
-.navigation {
-    text-decoration: underline;
-    text-align: right;
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.banner {
+    margin-top: 69px;
+    background-image: url("Resources/img-mission-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
