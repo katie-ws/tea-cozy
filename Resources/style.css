@@ -41,22 +41,29 @@ li a {
     margin: 0.1rem;
 }
 
+/* hero image */
 #mission {
     margin: 3.14rem auto 0;
     background-image: url("./img-mission-background.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    background-position: 0 -3.14rem;
+    height: 31.8rem;
     width: 90%;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
+    align-items: center;
 }
 
 .mission {
     background-color: black;
     width: 100%;
-    height: 180px;
-    margin-top: 260px;
+    height: auto;
+}
+
+/* featured tea */
+#featured-tea {
+    margin-top: 3.18rem;
 }
 
 .gallery {
@@ -69,18 +76,22 @@ li a {
 .gallery img {
     width: 300px;
     height: 200px;
-    margin-bottom: 10px;
     padding: 25px;
 }
 
+figcaption {
+    margin-top: 0.46rem;
+}
+
+/* location */
 .locations {
-    height: 500px;
+    height: 22.72rem;
     width: 90%;
     background-image: url('./img-locations-background.webp');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    margin: 15px auto 0;
+    background-position: 0 -3.18rem;
+    margin: 3.17rem auto 0;
     padding-top: 50px;
 }
 
