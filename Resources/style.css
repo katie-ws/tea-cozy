@@ -38,6 +38,7 @@ nav ul li {
     background-image: url("./img-mission-background.webp");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 700px;
 }
 
 .gallery {
@@ -51,6 +52,7 @@ nav ul li {
     width: 300px;
     height: 200px;
     margin-bottom: 10px;
+    padding: 25px;
 }
 
 .locations {
@@ -60,14 +62,12 @@ nav ul li {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin: auto;
-    display: flex;
-    justify-content: center;
+    margin: 15px auto 0;
+    padding-top: 50px;
 }
 
-.locations h2 {
+#loc-title {
     margin-bottom: 15px;
-    align-items: center;
 }
 
 .address {
